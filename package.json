@@ -1,0 +1,32 @@
+{
+  "name": "request-promise-bluebird",
+  "version": "0.0.0",
+  "description": "The simplified HTTP request client 'request' with Promise support. Powered by 'bluebird'.",
+  "keywords": [
+    "xhr",
+    "http",
+    "https",
+    "promise",
+    "request",
+    "then",
+    "thenable",
+    "bluebird"
+  ],
+  "main": "./lib/rp.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/request/request-promise-bluebird.git"
+  },
+  "author": "Nicolai Kamenzky (https://github.com/analog-nico)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/request/request-promise-bluebird/issues"
+  },
+  "homepage": "https://github.com/request/request-promise-bluebird#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
