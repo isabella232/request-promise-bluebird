@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('../promise-core/errors');
+throw new Error('DO NOT USE request-promise-bluebird! Use request-promise instead. It uses Bluebird under the hood.');
